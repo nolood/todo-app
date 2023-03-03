@@ -89,8 +89,8 @@ const Tasklist = ({ tasks, setTasks }) => {
               <span onClick={activateAll} className="downpanel__active all">
                 All
               </span>
-              <span onClick={() => setSortComp(!sortComp)} className="downpanel__active">Active</span>
-              <span onClick={() => setSortActive(!sortActive)} className="downpanel__active">Completed</span>
+              <span onClick={() => setSortActive(!sortActive)} className="downpanel__active">Active</span>
+              <span onClick={() => setSortComp(!sortComp)} className="downpanel__active">Completed</span>
             </div>
           </div>
         </>
