@@ -1,0 +1,25 @@
+// dark theme
+
+html[data-theme='dark'] {
+  --main-background-color: hsl(235, 21%, 11%);
+  --text-color: hsl(234, 39%, 85%);
+  --second-background-color: hsl(235, 24%, 19%);
+  --inactive-text-color: hsl(234, 11%, 52%);
+  --bg-desk: url('./../assets/bg-desktop-dark.jpg');
+  --bg-desk-mobile: url('./../assets/bg-mobile-dark.jpg');
+  --border-color: rgb(61, 61, 61);
+}
+
+
+
+// light theme
+
+html[data-theme='light'] {
+  --main-background-color: hsl(0, 0%, 98%);
+  --text-color: hsl(235, 19%, 35%);
+  --second-background-color: hsl(0, 0%, 98%);
+  --inactive-text-color: hsl(234, 11%, 52%);
+  --bg-desk: url('./../assets/bg-desktop-light.jpg');
+  --bg-desk-mobile: url('./../assets/bg-mobile-light.jpg');
+  --border-color: rgb(138, 138, 138);
+}
